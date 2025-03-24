@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes eexternas</title>
+    <style>
+        /*abaixo temos o código para poder adicionar uma fonte externa baixada, lembrando que o font-family neste código você que nomeia, e o nome da url e do formato necessita estar entre aspas*/
+        @font-face {
+            font-family: 'heavitas' ;
+            src: url('fonts/Heavitas.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+
+            /*===tipos de format()===
+            - opentype(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-aat(apple advanced typhography)
+            -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        h1{
+            font-family: 'heavitas', Times, serif;
+            font-size: 3em;
+            font-weight: lighter;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Título Aleatório</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium asperiores possimus quod doloribus! Itaque perferendis reprehenderit debitis non eum libero soluta qui consequatur, autem a, reiciendis, quam quos consequuntur?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure natus ab et voluptates, ut autem expedita inventore at animi praesentium mollitia aliquam perferendis explicabo vel nihil molestias repudiandae nobis eaque?</p>
+    
+</body>
+</html>
